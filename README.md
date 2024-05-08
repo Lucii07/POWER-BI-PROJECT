@@ -6,6 +6,9 @@ HOW YOU CAN ALSO CHERISH THIS PROJECT BY ADDING YOUR CREATIVITY AND IDEAS, OR IF
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 PART 1: Connecting & Shaping the Data
+
+
+
 Open a new Power BI Desktop file, and complete the following steps:
 
 
