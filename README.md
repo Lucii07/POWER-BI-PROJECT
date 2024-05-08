@@ -15,15 +15,20 @@ Open a new Power BI Desktop file, and complete the following steps:
 1) Update your Power BI options and settings as follows: 
 
 Deselect the "Autodetect new relationships after data is loaded" option in the Data Load tab
+
 Make sure that Locale for import is set to "English (United States)" in the Regional Settings tab
 
 
 2) Connect to the MavenMarket_Customers csv file
 
 Name the table "Customers", and make sure that headers have been promoted
+
 Confirm that data types are accurate (Note: "customer_id" should be whole numbers, and both "customer_acct_num" and "customer_postal_code" should be text)
+
 Add a new column named "full_name" to merge the the "first_name" and "last_name" columns, separated by a space
+
 Create a new column named "birth_year" to extract the year from the "birthdate" column, and format as text
+
 Create a conditional column named "has_children" which equals "N" if "total_children" = 0, otherwise "Y"
 
 
