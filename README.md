@@ -21,9 +21,9 @@ Deselect the "Autodetect new relationships after data is loaded" option in the D
 Make sure that Locale for import is set to "English (United States)" in the Regional Settings tab
 
 
-2) Connect to the MavenMarket_Customers csv file
+2) Connect to the Customers csv file
 
-Name the table "Customers", and make sure that headers have been promoted
+make sure that headers have been promoted
 
 Confirm that data types are accurate (Note: "customer_id" should be whole numbers, and both "customer_acct_num" and "customer_postal_code" should be text)
 
@@ -35,9 +35,9 @@ Create a conditional column named "has_children" which equals "N" if "total_chil
 
 
 
-3) Connect to the MavenMarket_Products csv file
+3) Connect to the Products csv file
 
-Name the table "Products" and make sure that headers have been promoted
+make sure that headers have been promoted
 
 Confirm that data types are accurate (Note: "product_id" should be whole numbers, "product_sku" should be text), "product_retail_price" and "product_cost" should be decimal numbers)
 
@@ -56,9 +56,9 @@ Delete the last applied step to return the table to its pre-grouped state
 Replace "null" values with zeros in both the "recyclable" and "low-fat" columns
 
 
-4) Connect to the MavenMarket_Stores csv file
+4) Connect to the Stores csv file
 
-Name the table "Stores" and make sure that headers have been promoted
+ make sure that headers have been promoted
 
 Confirm that data types are accurate (Note: "store_id" and "region_id" should be whole numbers)
 
@@ -67,16 +67,16 @@ Add a calculated column named "full_address", by merging "store_city", "store_st
 Add a calculated column named "area_code", by extracting the characters before the dash ("-") in the "store_phone" field 
 
 
-5) Connect to the MavenMarket_Regions csv file
+5) Connect to the Regions csv file
 
-Name the table "Regions" and make sure that headers have been promoted
+make sure that headers have been promoted
 
 Confirm that data types are accurate (Note: "region_id" should be whole numbers)
 
 
-6) Connect to the MavenMarket_Calendar csv file
+6) Connect to the Calendar csv file
 
-Name the table "Calendar" and make sure that headers have been promoted
+make sure that headers have been promoted
 
 Use the date tools in the query editor to add the following columns:
 
@@ -88,14 +88,14 @@ Quarter of Year
 Year
 
 
-7) Connect to the MavenMarket_Returns csv file
+7) Connect to the Returns csv file
 
 Name the table "Return_Data" and make sure that headers have been promoted
 
 Confirm that data types are accurate (all ID columns and quantity should be whole numbers)
 
 
-8) Add a new folder on your desktop (or in your documents) named "MavenMarket Transactions", containing both the MavenMarket_Transactions_1997 and MavenMarket_Transactions_1998 csv files
+8) Add a new folder on your desktop (or in your documents) named "Transactions", containing both the Transactions_1997 and Transactions_1998 csv files
 
 Connect to the folder path, and choose "Edit" (vs. Combine and Edit)
 
@@ -112,7 +112,7 @@ Spot check: You should see data from 1/1/1997 through 12/30/1998 in the "transac
 Confirm that all 7 tables are now accessible within both the RELATIONSHIPS view and the DATA view
 
 
-10) Save your .pbix file (i.e. "MavenMarket_Report")
+10) Save your .pbix file (i.e. "my_Report")
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
