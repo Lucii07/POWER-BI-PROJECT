@@ -246,3 +246,18 @@ Spot check: Create a matrix with "Start of Month" on rows to confirm accuracy
 
 Create a new measure named "Revenue Target" based on a 5% lift over the previous month revenue, and format as $
 Spot check: You should see a Revenue Target of $99,223 in March 1998
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# PART 4: Building the Report
+
+
+Build your own report by your creativity and ideas.
+
+
+# BONUS
+
+Here is some Visualization query examples other try yourelf
+
+
