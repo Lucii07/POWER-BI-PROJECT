@@ -6,22 +6,23 @@ HOW YOU CAN ALSO CHERISH THIS PROJECT BY ADDING YOUR CREATIVITY AND IDEAS, OR IF
 CSV FILES ARE ATTACHED PLEASE DOWNLOAD FROM THERE
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**PART 1: Connecting & Shaping the Data**
+
+PART 1: Connecting & Shaping the Data
 
 
 
 Open a new Power BI Desktop file, and complete the following steps:
 
 
-**1) Update your Power BI options and settings as follows: **
+1) Update your Power BI options and settings as follows: 
 
 Deselect the "Autodetect new relationships after data is loaded" option in the Data Load tab
 
 Make sure that Locale for import is set to "English (United States)" in the Regional Settings tab
 
 
-**2) Connect to the MavenMarket_Customers csv file
-**
+2) Connect to the MavenMarket_Customers csv file
+
 Name the table "Customers", and make sure that headers have been promoted
 
 Confirm that data types are accurate (Note: "customer_id" should be whole numbers, and both "customer_acct_num" and "customer_postal_code" should be text)
@@ -34,8 +35,8 @@ Create a conditional column named "has_children" which equals "N" if "total_chil
 
 
 
-**3) Connect to the MavenMarket_Products csv file
-**
+3) Connect to the MavenMarket_Products csv file
+
 Name the table "Products" and make sure that headers have been promoted
 
 Confirm that data types are accurate (Note: "product_id" should be whole numbers, "product_sku" should be text), "product_retail_price" and "product_cost" should be decimal numbers)
