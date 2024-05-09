@@ -4,7 +4,7 @@ HEY GUYZ IT IS MY FIRST POWER BI PROJECT.
 ALL THE DETAILS STEP BY STEP I WILL GIVE YOU,
 HOW YOU CAN ALSO CHERISH THIS PROJECT BY ADDING YOUR CREATIVITY AND IDEAS, OR IF WANT TO LEARN SOMETHING .
 
-CSV FILES ARE ATTACHED PLEASE DOWNLOAD FROM THEREf
+CSV FILES ARE ATTACHED PLEASE DOWNLOAD FROM THERE
 
 Reference from Maven Analytics
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
