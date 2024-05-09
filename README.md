@@ -118,7 +118,7 @@ Confirm that all 7 tables are now accessible within both the RELATIONSHIPS view 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-PART 2: Creating the Data Model
+# PART 2: Creating the Data Model
 
 
 Using the report you created in Part 1, complete the following steps:
